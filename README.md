@@ -1,6 +1,9 @@
 # Star Wars UI
 Simple web page based on star wars movies using [https://swapi.co/](https://swapi.co/)
 
+### Preview
+![Preview](https://raw.githubusercontent.com/georgekaran/star-wars-ui/master/docs/images/StarWarsUI.png)
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
