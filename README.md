@@ -1,8 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+# Star Wars UI
+Simple web page based on star wars movies using [https://swapi.co/](https://swapi.co/)
 
 ### `yarn start`
 
