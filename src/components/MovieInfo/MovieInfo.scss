@@ -1,0 +1,76 @@
+.MovieInfo__Container {
+  display: flex;
+}
+
+.MovieInfo__Header {
+  display: flex;
+  align-items: center;
+
+  &__Year,
+  &__Episode {
+    color: white;
+    margin: unset;
+    font-weight: 300;
+  }
+
+  &__Circle {
+    color: white;
+    font-weight: 300;
+    margin: 0 10px;
+  }
+}
+
+.MovieInfo__Score {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+
+  &__Circle {
+    color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  &__Fire,
+  &__Score {
+    color: #f31182;
+  }
+
+  &__Score {
+    font-size: 25px;
+    margin: 0 10px;
+    font-weight: 500;
+  }
+
+  &__Total {
+    color: #d0d0d0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.MovieInfo__Main {
+
+  &__Title {
+    color: white;
+    font-size: 55px;
+    font-weight: 500;
+    margin: 20px 0 0px 0;
+  }
+
+  &__Crawl {
+    width: 30%;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  @media (max-width: 900px) {
+    &__Crawl {
+      width: 70%;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.Slider__Container {
+  position: fixed;
+  bottom: 40px;
+  width: 100%;
+
+  .Slider__Items {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 0 40px;
+    height: 300px;
+  }
+
+}
